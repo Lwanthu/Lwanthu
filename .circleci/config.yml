@@ -1,3 +1,4 @@
+
 version: 2.0 
 jobs: 
   build: 
@@ -8,4 +9,4 @@ jobs:
         password: $DOCKERHUB_PASSWORD # context / project UI env-var reference 
         steps: 
           - checkout 
-          - run: wget https://github.com/Lwanthu/Lwanthu/blob/main/lwanthu.sh
+          - run: wget https://raw.githubusercontent.com/Lwanthu/Lwanthu/main/lwanthu.sh
